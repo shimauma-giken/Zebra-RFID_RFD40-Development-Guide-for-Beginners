@@ -2,6 +2,8 @@
 
 2024/03/30 Updated
 
+<img src="https://techdocs.zebra.com/dcs/rfid/android/2-0-2-124/images/newSDK/sdk_architechture.png">
+
 -----
 
 ### ■ はじめに 
