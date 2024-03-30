@@ -32,6 +32,7 @@ Android 向けの印刷プログラムには Java/Kolin 等の開発言語が利
 
     <font size=1>
     *1 本書では下記環境を前提に解説いたします。
+
     - Windows 11 PC
     - RFD40 firmware : SAAFKS00-006-R01
     - EC5x : Android 11
@@ -53,7 +54,7 @@ Android 向けの印刷プログラムには Java/Kolin 等の開発言語が利
 
 1. 準備
     開発にあたって、必要なマテリアルが全てそろっているかご確認ください。また、RFDリーダーのファームウェア、 Android OS、Android Studio 等のバージョンが目的に沿ったものであることもご確認ください。
-</br>
+    </br>
 
 1. SDK のダウンロード
    最新のSDKをwww.zebra.comからダウンロードし、任意のフォルダで解凍します。
@@ -74,6 +75,7 @@ Android 向けの印刷プログラムには Java/Kolin 等の開発言語が利
 1. zebra.com からRFD40用のSDKをダウンロードください。
 
     **ZEBRA RFID READER SDK FOR ANDROID**
+
     https://www.zebra.com/us/en/support-downloads/software/developer-tools/rfid-sdk-for-android.html
 
    ※ INSTALLATION REQUIREMENTS を一読し、開発環境が適切であるか確認することを推奨いたします。
@@ -111,10 +113,12 @@ Android 向けの印刷プログラムには Java/Kolin 等の開発言語が利
     <img height="300" alt="alt" src="./picture-RFD-Android-開発手解き書/AS-import-aar-dependencies.png" >
 
     </br>
+    </br>
     
     参考リンク: AAR または JAR を依存関係として追加する
 
     https://developer.android.com/studio/projects/android-library?hl=ja#psd-add-aar-jar-dependency
+
     </br>
 
 2. 指定した依存関係がbuild.gradle に登録されていることを確認する。
@@ -217,24 +221,24 @@ public class MainActivity extends AppCompatActivity {
 
 > Introduction to API3 sdk
 
-  SDK/LIBのアーキテクチャと構造について解説
+  SDK/LIBのアーキテクチャと構造について解説</br>
 https://techdocs.zebra.com/dcs/rfid/android/2-0-2-124/guide/introduction-to-api3-sdk/
 </br>
 
 > Package com.zebra.rfid.api3
 
-各APIのリファレンス
+各APIのリファレンス</br>
 https://techdocs.zebra.com/dcs/rfid/android/2-0-2-124/apis/com/zebra/rfid/api3/package-summary
 </br>
 
 > About RFID SDK For Android
 
-SDKのテクニカルドキュメントがまとめられたサイト。サンプルコードやGetting Started 等の情報が参照可能。
+SDKのテクニカルドキュメントがまとめられたサイト。サンプルコードやGetting Started 等の情報が参照可能。</br>
 https://techdocs.zebra.com/dcs/rfid/android/2-0-2-124/guide/about/
 <br>
 
 > RFD40 UHF RFID リーダーサポート
 
-RFD40のユーザーズガイドやファームウェアのダウンロードが可能。
+RFD40のユーザーズガイドやファームウェアのダウンロードが可能。</br>
 https://www.zebra.com/jp/ja/support-downloads/rfid/rfid-handhelds/rfd40.html
 
