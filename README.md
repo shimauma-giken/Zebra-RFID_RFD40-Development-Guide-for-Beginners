@@ -29,6 +29,8 @@ Android 向けの印刷プログラムには Java/Kolin 等の開発言語が利
     - Android Studio *1
     - ZEBRA RFID READER SDK FOR ANDROID *1
     </br>
+    <br>
+    
 
     <font size=1>
     *1 本書では下記環境を前提に解説いたします。
